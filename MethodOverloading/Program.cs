@@ -44,9 +44,16 @@
             {
                 return $"{x + y} dollars";
             }
+            else if (withDollars && (x + y) == 1)
+
+            {
+
+                return $"{x + y} dollar";
+            }
             else
             {
                 return $"{x + y}";
+
             }
         }
     }
